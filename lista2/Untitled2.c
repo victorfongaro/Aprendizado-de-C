@@ -13,7 +13,7 @@ int main()
     scanf("%d", &c);
     printf("\nValor de d: ");
     scanf("%d", &d);
-    z = (sqrt(a+b)/(c*c)) + (d*3/(a-b));
+    z = (-b - (b*b*b) - 4*a*c + 2* (a*a))/(2*a/((b+1)*(b+1)));
     printf("\nO valor de z é %f", z);
 }
 
