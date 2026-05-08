@@ -6,8 +6,11 @@ int main(){
     scanf("%d", & n);
     printf("\nInsira seu expoente: ");
     scanf("%d", & e);
-    for (e;e>=0; e--){
-        x =
+    x=n;
+    while (e >1){
+            x*=n;
+            e--;
     }
+    printf("%d", x);
     return 0;
 }
