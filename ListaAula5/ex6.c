@@ -14,6 +14,6 @@ int main(){
         }
         printf("\n%d", cont);
     } while(cont<=n);
-    printf("%.2f",soma);
+    printf("\n%.2f",soma);
 }
 
