@@ -7,7 +7,7 @@ int main(){
     printf("Insira algo: ");
     gets(texto1);
     printf("Insira algo: ");
-    gets(texto1);
+    gets(texto2);
 
     if (strlen(texto1) != strlen(texto2)){
         if (strlen(texto1)<strlen(texto2)){
